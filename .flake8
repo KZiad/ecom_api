@@ -1,0 +1,10 @@
+[flake8]
+exclude = 
+    .git,
+    .vscode,
+    __pycache__,
+    migrations,
+    *.json,
+    venv
+max-line-length = 90
+max-complexity = 5

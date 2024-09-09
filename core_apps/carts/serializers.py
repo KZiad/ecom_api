@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from .models import Cart_Item, Cart
-from core_apps.products.models import Product
 from core_apps.products.serializers import ProductSerializer
 
 
